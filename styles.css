@@ -1,0 +1,107 @@
+body{
+    background-image: url(pics/Electrical-Safety-pic.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin:0%;
+    padding: 0;
+}
+.header-section{
+    display: flex;
+    height:auto;
+    width:auto;
+    padding:3%;
+    padding-left:5%;
+}
+.logos{
+    height:100px;
+    width:100px;
+    padding-right:10%;
+}
+.header-info{
+    padding:3%;
+    display: flex;
+}
+@media screen and ( min-width:1100px){
+    .header-data{
+        color: white;
+        margin-right:50px;
+        font-size: xx-large;
+    }
+    .header-button1{
+        display: none;
+    }
+    .text{
+        width:60%;
+        color:black;
+        font-size:60px;
+        margin-left:20%;
+        margin-top:10%;
+        font-weight: 700;
+    }
+}
+@media screen and (max-width:1100px){
+    body{
+        background-repeat:repeat ;
+    }
+    .header-button1{
+        cursor: pointer;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: x-large;
+        padding-bottom: 5%;
+    }
+    .text{
+        width:60%;
+        color:black;
+        font-size:30px;
+        margin-left:20%;
+        margin-top:10%;
+        font-weight: 700;
+    }
+    .header-info{
+        display: none;
+    }
+    .header-info2{
+        margin-top: 30px;
+        display: flex;
+        flex-direction: column;
+        align-content: space-between;
+        align-content: space-around;
+        display: none;
+    }
+    .header-data{
+        color: white;
+        margin-bottom:20px;
+        font-size: large;
+    }
+    .header-section{
+        padding-left:0%;
+    }
+    .logos{
+        height:70px;
+        width:70px;
+    }
+    .header-button1:hover .header-info2{
+        display: flex;
+    }
+}
+.logins{
+    margin-left: 5%;
+    display: flex;
+    flex-direction: row;
+    padding-top:3%;
+    align-content: space-between;
+    align-content: space-around;
+}
+.login{
+    border-radius: 20%;
+    font-size: large;
+    background-color: aliceblue;
+    height:30px;
+    margin-right: 20%;
+    padding-left:15%;
+    padding-top:10px;
+    padding-right:15%;
+    font-weight: 700;
+    color:black;
+    font-family: Arial, Helvetica, sans-serif;
+}
